@@ -59,6 +59,11 @@
     <Compile Include="Models\Personel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\Bateri.cs" />
+    <Compile Include="Tools\Enstruman.cs" />
+    <Compile Include="Tools\Gitar.cs" />
+    <Compile Include="Tools\Klavsen.cs" />
+    <Compile Include="Tools\Piyano.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

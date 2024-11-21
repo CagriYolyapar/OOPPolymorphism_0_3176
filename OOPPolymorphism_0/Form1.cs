@@ -78,7 +78,7 @@ namespace OOPPolymorphism_0
             Mudur m = new Mudur();
             m.Isim = "Betul";
             m.SoyIsim = "Sahin";
-            LstSonuc.Items.Add(m);
+            LstSonuc.Items.Add(m); //m.ToString(); aslında burada yapılan durum m nesnesinin string'e donusturulmesidir...Bu yüzden Personel Class'ında ToString() metodunu polymorphism'e girebilir hale getirdik ki istedigimiz şekilde bir temsil görevi yapabilsin...
         }
     }
 }
